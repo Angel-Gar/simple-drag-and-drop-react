@@ -2,9 +2,9 @@ import { DragDropContext, Droppable, Draggable } from "@hello-pangea/dnd";
 import {useEffect, useState } from "react";
 
 const initialTodos = JSON.parse(localStorage.getItem('todos')) || [
-  { id: 1, text: "bañarse" },
-  { id: 2, text: "jalada de pito" },
-  { id: 3, text: "cenar" },
+  { id: 1, text: "ducharse" },
+  { id: 2, text: "desayunar" },
+  { id: 3, text: "trabajar" },
 ];
 
 const App = () => {
